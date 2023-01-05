@@ -42,7 +42,7 @@ public class Elevator
 	{
 		State.Current_State = State.Moving_down;
 		current_Floor -= 1;
-		//System.out.println("Current floor is " + current_Floor);
+		//System.out.println("Current floor is" + current_Floor);
 		if (dest_Floor < current_Floor)
 		{
 			//System.out.println("Going down");
