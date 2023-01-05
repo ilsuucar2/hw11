@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: github/super-linter@v3.17.0
+        uses: actions/checkout@v3
     
       - name: Run Super-Linter
-        uses: github/super-linter@v3
+        uses: github/super-linter@v3.17.0
         env:
-           DEFAULT_BRANCH: main
-           GITHUB_TOKEN: ${{ secrets.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 }}
+           DEFAULT_BRANCH: master
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
